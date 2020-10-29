@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.hero {
+    width: 1200px;
+    height: 100vh;
+}
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    height: 100px;
+    width: 100%;
+}
+header .content {
+    display: flex;
+    justify-content: flex-end;
+}
+header .content ul {
+    margin: 0;
+    padding: 0;
+}
+header .content ul li {
+    display: inline-block;
+}
+header .content ul li a {
+    line-height: 100%;
+}
+.servises .container h3 {
+    margin: 110 auto 50 auto;
+    width: 743px;
+}
