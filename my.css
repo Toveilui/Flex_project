@@ -4,6 +4,10 @@ body {
     margin: auto; 
     -webkit-font-smothing: antialiased;
 }  
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
 .wrapper {
     padding-left: 40px;
     padding-right: 40px;
@@ -125,7 +129,8 @@ body {
 
 .allservises{
       display: flex;
-      margin-top: 105px;
+      margin-top: 95px;
+      justify-content: center;  
   }
 .servises__item{
     flex: 1 1 0;
@@ -142,17 +147,105 @@ body {
     font-weight: 600;
     font-size: 18px;
     margin-top: 9px;
+
 }
 .servises__text{
     font-size: 14px;
     font-weight: 400;
-    margin-top: 0;
     width: 210px;
     color: #999999;
     line-height: 25px;
     margin-top: 12px;
     margin-bottom: 55px;
 }
-.fullscreen{
-    padding-top: 257px;
+.container>.btn{
+margin-bottom: 105px;
 }
+
+/* Po centru str viravnivanie!! */
+.fullscreen{
+    background: #F6F6F8;  
+}
+.standart {
+    display: flex;
+    justify-content: center;    
+}
+.colour_background {
+    padding-right: 120px;
+   
+}
+.colour_background>h2 {
+    width: 424px;
+    font-size: 36px;
+    line-height: 53px;
+    margin: auto 0;
+    padding-top: 152px;
+}
+.colour_background>p {
+    width: 489px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    padding-top: 30px;
+    margin: auto 0; 
+    padding-bottom: 15px;   
+    font-weight: 400;
+}
+.colour_background>a {
+    font-weight: 500;
+    font-size: 16px; 
+    color: #4985FF;
+
+}
+.aboutus__img {
+    padding-top: 100px;
+}
+/* .line {
+    margin-top: 90px;
+    margin-bottom: 77px;
+}
+hr{
+border: none;
+border: 1px solid #E0E0E0;
+} */
+hr {
+    display: block;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background-color: #E0E0E0;
+    margin: 90px 0;
+}
+
+
+/* our project */
+
+.ourprojects{
+    padding-bottom: 100px;
+}
+.numbernav{
+  display: inline-block
+}
+.numberitem  {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 50px;
+}
+.numberitem img {
+  margin-right: 20px;
+}
+.numberitem>div{
+  flex-basis: calc(100%-100px);
+}
+.textproject {
+    font-size: 35px;
+    font-weight: 400;
+}
+.textourproject {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    
+}
+
