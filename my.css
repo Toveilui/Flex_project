@@ -7,12 +7,17 @@ body {
 h1, h2, h3, h4, h5 {
     margin: 0;
 }
+p {
+    margin: 0;
+}
 
 .wrapper {
-    padding-left: 40px;
-    padding-right: 40px;
-    width: 1200px;
-    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    position: relative;
 }
 .main {
     height: 100vh;
@@ -50,12 +55,9 @@ h1, h2, h3, h4, h5 {
 .nav>li>a{
     color: white;  
     text-decoration: none;
-    
+   
 }
-/* .nav>li>a:hover{
-    font-weight: 600;
-    transition: 0.5s ; 
-} */
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -94,6 +96,7 @@ h1, h2, h3, h4, h5 {
     border-radius: 30px;
     cursor: pointer;
     transition: background 0.5s linear;
+    margin: 0 auto;
   }
   .btn:hover {
     background: #235ac7;
@@ -172,8 +175,7 @@ margin-bottom: 105px;
     justify-content: center;    
 }
 .colour_background {
-    padding-right: 120px;
-   
+    padding-right: 120px;  
 }
 .colour_background>h2 {
     width: 424px;
@@ -201,29 +203,25 @@ margin-bottom: 105px;
 .aboutus__img {
     padding-top: 100px;
 }
-/* .line {
-    margin-top: 90px;
-    margin-bottom: 77px;
-}
-hr{
-border: none;
-border: 1px solid #E0E0E0;
-} */
-hr {
-    display: block;
+
+.hr-line {
+    /* display: block;
     width: 1110px;
     height: 1px;
-    border: 0;
     background-color: #E0E0E0;
     margin: 90px auto;
-    
+    position: relative; */
+    margin: 70px 0;
+	padding: 0 ;
+	height: 0;
+	border: none;
+	border-top: 1px solid #E0E0E0;
 }
-
 
 /* our project */
 
 .ourprojects{
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 .numbernav{
   display: inline-block
@@ -247,7 +245,144 @@ hr {
 .textourproject {
     font-size: 16px;
     font-weight: 400;
-    color: #999999;
-    
+    color: #999999;  
 }
 
+/* our_works */
+
+/* .ourworks {
+    background:blue;
+    padding-top: 100px;
+
+}
+.ourworks__text>h2{
+    width: 540px;
+    font-size: 36px;
+    line-height: 53px;
+    float: left;
+    color: white;
+}
+.btnworks {
+float: right;
+margin-top: 200px;
+}
+
+.ourworks__list {
+    padding-top: 100px;
+} */
+.ourworks {
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 302px;
+}
+/* не работает hover */
+.btn.works {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+ }
+ /* .btn.works:hover {
+    background: #235ac7;
+  } */
+
+ .ourworks__text>h2{
+    width: 540px;
+    font-size: 36px;
+    line-height: 53px;
+    float: left;
+    color: white;
+}
+.ourworks__list {
+    padding-top: 158px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    color: black;
+    
+}
+/* rasstoyanie  mezhdu textom kak otcentririvat*/
+.ourworks__item {
+    padding-right: 30px;
+}
+.ourworks__item h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.ourworks__item p{
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    padding-bottom: 30px;
+}
+.ourworks__item a {
+    font-weight: 500;
+    font-size: 16px; 
+    color: #4985FF;
+    padding-bottom: 85px; 
+}
+.colortext {
+    color: #4985FF;
+}
+
+.bgcolor{
+    background:white; 
+    padding-top: 480px;
+    padding-bottom: 85px;
+}
+
+.ourproject{
+    background: #F6F6F8;
+    padding-bottom: 100px;
+}
+.ourproject__img {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.center {
+    text-align: center;
+    padding-top: 60px;
+}
+
+/* video */
+.video {
+    background: url(../Flex_project/img/videobg.png);
+    background-repeat: no-repeat;
+    height: 570px;
+    color: white;
+}
+.video__text {
+    color: white;
+    text-align: center;
+}
+.video__text h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 64px;
+    margin: 0 auto;
+    width: 739px;
+    margin-bottom: 30px;
+    line-height: 53px;
+    margin-top: 0;
+    padding-top: 80px; 
+  }
+  .video__text p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 730px;
+    line-height: 25px;
+}
+.video__img{
+    padding-top: 70px;
+    text-align: center;
+    
+}
+.video__play_button {
+    border: 1px solid #FFFFFF;
+    border-radius: 200px;
+    width: 300px;
+    height: 100px;
+}
