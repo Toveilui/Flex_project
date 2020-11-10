@@ -12,19 +12,24 @@
 <body>
     <section class="main">
        <div class="wrapper"> 
-       <header>
-          <div class="header"> 
-              <nav>
-                  <ul class="nav">
-                      <li><a href="#">Главная</a></li>
-                      <li><a href="#">Наши проекты</a></li>
-                      <li><a href="#">Услуги</a></li>
-                      <li><a href="#">Новости</a></li>
-                      <li><a href="#">Контакты</a></li>
-                  </ul>
-              </nav>
-          </div>   
-       </header>
+          <header>
+             <div class="header"> 
+                 <nav>
+                     <ul class="nav">
+                         <li><a href="#">Главная</a></li>
+                         <li><a href="#">Наши проекты</a></li>
+                         <li><a href="#">Услуги</a></li>
+                         <li><a href="#">Новости</a></li>
+                         <li><a href="#">Контакты</a></li>
+                     </ul>
+                 </nav>
+             </div>   
+          </header>
+       </div>
+
+      <div class="hrheader">
+      </div>
+
       <div class="hero">
         <p>Передовая IT студия</p>
         <h1>Мы создаем легкие решения сложных задач и проблем</h1>
@@ -80,9 +85,6 @@
                   <img src="../Flex_project/img/about us.png" alt="about us">  
               </div>
           </div>
-       <!-- <div class="line" >
-          <hr align="center"  width="1110px">
-      </div> -->
          <hr class="hr-line">
          <div class="ourprojects">
                 <div class="wrapper">
@@ -138,7 +140,8 @@
          <div class="wrapper">
             <div class="ourworks__text">
                <h2>Наши работы, на которых <br> мы специализируемся</h2>
-               <a class="btn works" href="#">Все услуги</a>  
+               <a class="btn" href="#">Все услуги</a>
+               
             </div>
                
             <div class="ourworks__list">
@@ -211,14 +214,77 @@
             <p>Просто посмотрите, как мы работаем</p>
          </div>
          <div class="video__img">
-            <img src="../Flex_project/img/video.png" alt="video">  
-            <div class="video__play_button">
-               <img src="../Flex_project/img/play-button.svg" alt="play-button">   
-            </div>
+               <div >
+                 <img src="../Flex_project/img/video.png" alt="video"> 
+               </div>
+               <div class="video__play_button">
+                 <p class="video__text__button"><img class="video__img__center" src="../Flex_project/img/play-button.svg" alt="play-button"> Смотреть видео</p>    
+               </div>
          </div>
+      </div>
+   </section>
+   <section class="bgcolor video_bg">
+     <div class="wrapper">
+      <hr class="hr-line">
+     </div>
+    </section>
 
+    <section class="subcribe">
+      <div class="subcribe__text"> 
+         <h3>Подпишитесь на нашу рассылку</h3>
+         <p>Полезные статьи, акции, новости - получите все это сейчас</p>
+      </div>
+      <div class="subcribe__form">
+         <p>Ваш e-mail</p>
+         <p class="btn subcribe">Подписаться</p>
+      </div>
+      <div class="subcribe__textafter">
+         <p>Мы не шлем спам, и передаем никому ваши данные.</p>
       </div>
     </section>
+
+    <section class="footer">
+      <div class="wrapper">
+          <div class="footer_item">
+             <div class="footer_item__one">
+                <h3>Контактная информация</h3>
+                <p><img class="footer_item__image" src="../Flex_project/img/mail.svg" alt="mail">test@test.ru</p>
+                <p><img class="footer_item__image" src="../Flex_project/img/call.svg" alt="call">+8 777 555 66 99</p>
+                <p><img class="footer_item__image" src="../Flex_project/img/search.svg" alt="address">Москва, Бульвар Ленина 33</p>
+             </div>
+             <div class="footer_item__two">
+                <h3>Основные ссылки</h3>
+                <p><img class="footer_item__image" src="../Flex_project/img/right-arrow.svg" alt="right-arrow">Главная</p>
+                <p><img class="footer_item__image" src="../Flex_project/img/right-arrow.svg" alt="right-arrow">Наши проекты</p>
+                <p><img class="footer_item__image" src="../Flex_project/img/right-arrow.svg" alt="right-arrow">Наши услуги</p>
+                <p><img class="footer_item__image" src="../Flex_project/img/right-arrow.svg" alt="right-arrow">Контакты</p>
+             </div>
+             <div class="footer_item__three">
+                 <h3>Наши проекты</h3>
+                 <p><img class="footer_item__image" src="../Flex_project/img/right-arrow.svg" alt="right-arrow">РосНано</p>
+                 <p><img class="footer_item__image" src="../Flex_project/img/right-arrow.svg" alt="right-arrow">Сколково</p>
+                 <p><img class="footer_item__image" src="../Flex_project/img/right-arrow.svg" alt="right-arrow">Проект “Восток”</p>
+                 <p><img class="footer_item__image" src="../Flex_project/img/right-arrow.svg" alt="right-arrow">ТЭЦ Калининграда</p>
+             </div>
+             <div class="footer_item__fore">
+               <h3>Социальные сети</h3>
+               <p><img class="footer_item__image" src="../Flex_project/img/right-arrow.svg" alt="right-arrow">VK.com</p>
+               <p><img class="footer_item__image" src="../Flex_project/img/right-arrow.svg" alt="right-arrow">Instagram</p>
+               <p><img class="footer_item__image" src="../Flex_project/img/right-arrow.svg" alt="right-arrow">Facebook</p>
+               <p><img class="footer_item__image" src="../Flex_project/img/right-arrow.svg" alt="right-arrow">Twitter</p>
+           </div>
+          </div>
+       </div>
+    </section>
+     <div class="bg__footer">
+        <div class="wrapper">
+          <hr class="hrline__footer">
+        </div>
+      </div>
+      <section class="footer__down">
+         <p>(с) 2020. Все права защищены.</p>
+      </section>  
+ 
 </body>
 </html>
 
